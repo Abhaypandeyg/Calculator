@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html form</title>
+
+    <style>
+      
+
+      body{
+        background-color: cornflowerblue;
+        margin-left: 33%;
+      }
+      h1{
+        text-align: center;
+        padding: 1%;
+        margin-top: 0em;
+        margin-bottom: 0em;
+      }
+      div{
+        background-color: rgb(42, 41, 41);
+        width: 210px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 5px;
+        
+        
+      }
+      #first{
+        width: 201px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        text-align: right;
+        font-size: larger;
+      }
+      #btn{
+        width: 67px;
+        height: 40px;
+        background-color: #331616;
+        color: aliceblue;
+        border-radius: 5px;
+      }
+
+      #butn{
+        width: 65px;
+        height: 40px;
+        font-size: medium;
+        padding: 20px;
+       
+      }
+      #eval{
+        /* width: 100px;
+        height: 40px;
+        font-size: medium;
+        /* padding-top: 20px */
+        /* padding-bottom: 10; */
+        /*font-size:larger; */
+        width: 138px;
+        height: 40px;
+        background-color: #331616;
+        color: aliceblue;
+        border-radius: 5px;
+        
+        
+         
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input id="first" type="text">
+      <br>
+      <hr width="201px">
+      <input id="btn" type="button" value="1" onclick="first.value +='1' ">
+      <input id="btn" type="button" value="2" onclick="first.value +='2' ">
+      <input id="btn" type="button" value="+" onclick="first.value +='+' ">
+      <input id="btn" type="button" value="3" onclick="first.value +='3' ">
+      <input id="btn" type="button" value="4" onclick="first.value +='4' ">
+      <input id="btn" type="button" value="-" onclick="first.value +='-' ">
+      <input id="btn" type="button" value="5" onclick="first.value +='5' ">
+      <input id="btn" type="button" value="6" onclick="first.value +='6' ">
+      <input id="btn" type="button" value="x" onclick="first.value +='*' ">
+      <input id="btn" type="button" value="7" onclick="first.value +='7' ">
+      <input id="btn" type="button" value="8" onclick="first.value +='8' ">
+      <input id="btn" type="button" value="/" onclick="first.value +='/' ">
+      <input id="btn" type="button" value="9" onclick="first.value +='9' ">
+      <input id="btn" type="button" value="0" onclick="first.value +='0' ">
+      <input id="btn" type="button" value="DE" onclick="first.value=first.value.toString().slice(0,-1)">
+      
+      <input id="btn" type="button" value="." onclick="first.value +='.' ">
+      <input id="btn" type="button" value="=" onclick="first.value = eval(first.value)">
+      <input id="btn" type="button" value="AC" onclick="first.value ='' ">
+      
+
+      
+
+    </div>
+  </body>
+    
+
+</html>
